@@ -1,0 +1,44 @@
+<!doctype html>
+<html>
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta charset="utf-8">
+    <style>
+        * {
+            box-sizing: border-box;
+        }
+
+        .header {
+            border: 1px solid red;
+            padding: 15px;
+        }
+
+        .menu {
+            width: 100%;
+            float: top;
+            padding: 3px;
+            border: none;
+        }
+
+        .main {
+            width: 100%;
+            float: bottom;
+            padding: 5px;
+            border: none;
+        }
+    </style>
+</head>
+<body>
+
+    <div class="menu">
+        <button onclick="go()">Go</button>
+        <button id="time">Time </button>
+    </div>
+
+    <div class="main">
+        <canvas width=1200 height=800></canvas>
+    </div>
+
+    <script src="springBot.js"></script>
+</body>
+</html>
